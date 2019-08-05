@@ -1,0 +1,10 @@
+
+Command
+1. gcc helloworld.c -o main
+
+// 加载 windows sdk的包
+2. gcc client.c -lws2_32 -o client
+
+
+关于make:
+1. 命令前面一定要是制表符，另外注意文本编辑器有可能把制表符转成4个空格!!!从windows复制到linux或者linux复制到windows会有问题。

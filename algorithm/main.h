@@ -18,15 +18,6 @@ int getRandom(int i){
     return rand() % MOD;
 }
 
-int * getArr(){
-    static int arr[100];
-    int arrSize = sizeof(arr)/sizeof(*arr);     // 初始化大小声明之后, 已经申请好了内存
-    for(int i = 0; i < arrSize; i++){
-        arr[i] = getRandom(i + 5);
-    }
-    return &arr;
-}
-
 void swap(int *a, int *b){
     int temp = *a;
     *a = *b;

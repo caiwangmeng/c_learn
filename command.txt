@@ -1,7 +1,0 @@
-
-Command
-1. gcc helloworld.c -o main
-
-// 加载 windows sdk的包
-2. gcc client.c -lws2_32 -o client
-

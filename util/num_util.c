@@ -1,9 +1,7 @@
-/*
-num util
-*/
+#include "../common.h"
 
-int max(int a, int b){
-    return a > b ? a : b;
+void haha(){
+    printf("the val is num util!!!\n");
 }
 
 
