@@ -8,3 +8,7 @@ Command
 
 关于make:
 1. 命令前面一定要是制表符，另外注意文本编辑器有可能把制表符转成4个空格!!!从windows复制到linux或者linux复制到windows会有问题。
+2. make -f makefile.bak clean
+	-- 指定非默认make文件执行clean command
+3. 关于VPATH，需要理解make本质还是一堆编译命令
+	$(CC) -c $<
