@@ -21,4 +21,6 @@ void insertion_sort();
 
 void haha();
 
+int gethaha();
+
 #endif
